@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-container > div {
+  flex: 1 1 25%;
+  margin: 10px 0;
+}
+
+.footer-logo img {
+  max-width: 100px;
+}
+
+.footer-social {
+  margin-top: 10px;
+}
+
+.footer-social a {
+  margin: 0 5px;
+}
+
+.footer-social img {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-products, .footer-about {
+  text-align: center;
+}
+
+.footer-products ul, .footer-about ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-products ul li, .footer-about ul li {
+  margin: 5px 0;
+}
+
+.footer-products ul li a, .footer-about ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-products ul li a:hover, .footer-about ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-rights {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-container > div {
+    flex: 1 1 100%;
+    text-align: center;
+  }
+}
+
+
